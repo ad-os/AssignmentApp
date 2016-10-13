@@ -1,0 +1,99 @@
+nav {
+	background-color: #1b39a8;
+}
+
+body {
+	background-color: beige;
+}
+
+nav ul a {
+	font-size: -webkit-xxx-large;
+	color: #1b39a8;
+	margin: 10px 0 0 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+pre {
+	white-space: pre-wrap;
+	font-family: monospace;
+}
+
+.box-shadow {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.center {
+	text-align: center;
+}
+
+.min-height {
+	max-height: 1000px;
+}
+
+.font-style {
+	font-size: 25px;
+}
+
+.head-style {
+	text-align: center;
+	width: 300px;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.margin {
+	margin: 25px 0 25px 0;
+}
+
+.input-margin-top {
+	margin-top: 4em;
+}
+
+.margin-top {
+	margin-top: 50px;
+}
+
+.width {
+	width: 100%;
+}
+
+.margin-top-button {
+	margin-top: 20px;
+}
+
+.padding {
+	padding: 0 30px;
+}
+
+.image-margin {
+	margin: 10px 0 0 20px;
+}
+
+.image-margin-right {
+	margin: 3px 10px 0 0px;
+}
+
+.collapsible-header {
+	height: 100%;
+}
+
+.margin-zero {
+	margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.head-style {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.image-margin {
+		margin: 0;
+	}
+}
